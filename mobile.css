@@ -1,0 +1,28 @@
+ /* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+    
+
+} */
+
+.menu{
+    flex-direction: column;
+    text-align: center;
+    padding:20px;
+    
+
+}    
+    
+.menu a{
+    background-color:indigo;
+    margin:10px 0;
+    border-radius: 10px;
+   
+}
+
+.row{
+    flex-direction: column;
+}
+
+[class*="col-"]{
+    width:100%;
+}
