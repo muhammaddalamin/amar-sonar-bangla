@@ -684,7 +684,7 @@
 // });
 // console.log(result3)
 
-var arr = [1,2,3,4,5,6]
+// var arr = [1,2,3,4,5,6]
 
 
 // var sum = 0
@@ -1093,8 +1093,164 @@ var arr = [1,2,3,4,5,6]
 // var sayMsg = test()
 // sayMsg()
 
-for (var i =1 ; i<=5;i++){
-    setTimeout(function(){
-        console.log(i)
-    },1000*i)
-}
+// for (var i =1 ; i<=5;i++){
+//     setTimeout(function(){
+//         console.log(i)
+//     },1000*i)
+// }
+
+// var a =5;
+// var b=7;
+
+// // console.log('Before swap: a =',a,'b =',b);
+
+// var temp = a;
+// a = b;
+// b =temp;
+
+// // console.log('after swap: a =',a,'b =',b);
+
+// var x = 5;
+// var y = 7;
+
+// x =x+y;
+// y =x-y;
+// x = x -y
+// console.log('after swap: x =',x,'y =',y);
+
+
+// var p =5;
+// var q =7;
+
+// [p,q] = [q,p];
+
+// console.log('after swap: p =',p,'q =',q);
+
+// var num = 2.45454464453;
+
+// var result = Math.floor(num);
+// var result2 = Math.ceil(num);
+// var result3 = Math.round(num);
+
+// console.log(result)
+// console.log(result2)
+// console.log(result3)
+
+// var randomNum = Math.random()*37;
+
+// var output = Math.round(randomNum);
+// console.log(output)
+
+// var business = 450 ;
+// var minister =650;
+// var schib = 335;
+
+// var result = Math.max(business,minister,schib)
+// console.log(result)
+
+// if(business > minister){
+//     if(business >schib){
+//         console.log('business is bigger');
+//     }else{
+//         console.log('schib is bigger');
+//     }
+// }else{
+//     if(minister > schib){
+//         console.log('minister is bigger');
+//     }else{
+//         console.log('schib is bigger');
+//     }
+// }
+
+// var marks = [ 45,64,24,65,84,32,96,45,98,67,87,80];
+
+// var max = marks[0];
+
+// for (var i =0 ;i<marks.length;i++){
+
+//     var element = marks[i]
+//     if(element > max){
+//         max = element
+//     }
+// }
+// console.log('Highest value is ', max)
+
+// var marks = [ 45,64,24,65,84,32,96,45,32,67,87,24];
+
+
+
+// function getArraySum(marks){
+//     var sum = 0;
+//     for(var i=0;i<marks.length;i++){
+
+//         var element = marks[i]
+//         sum += element
+
+        
+//     }
+//     return sum
+// }
+// var result = getArraySum(marks)
+// console.log('total of the number :',result);
+
+// var number = [ 45,64,24,65,84,32,96,45,32,67,87,24];
+// console.log(number)
+
+// var uniqueNum = [];
+// for(var i= 0;i<number.length;i++){
+//         var element = number[i]
+
+//         var index = uniqueNum.indexOf(element);
+
+//         if(index == -1){
+//             uniqueNum.push(element)
+//         }
+// }
+// console.log(uniqueNum)
+
+// function add(a,b){
+//     return a+b
+// }
+// console.log(add('adam' + 'eve'))
+
+// var seepk = 'I am a      good person, I don\'n\ snore at night'
+
+// var count = 0;
+// for (var i =0;i<seepk.length;i++){
+//     var char = seepk[i];
+//     if(char == ' ' && seepk[i-1] != ' '){
+//         count++;
+//     }
+// };
+// count++;
+// console.log(count)
+
+
+
+// var count = 0;
+// for (var i =0;i<sentence.length;i++){
+//     var letter = sentence[i];
+
+//     if(letter == ' ' && sentence[i-1] != ' '){
+//         count++;
+//     }
+// }
+// count++;
+// console.log(count)
+// function reverseString(sentence){
+//     var reverse = '';
+//     for(var i =0;i<sentence.length;i++){
+//         var char = sentence[i];
+//         reverse = char +  reverse ;
+//     };
+//     return reverse;
+// };
+
+// var forAlien = reverseString(sentence);
+// console.log(forAlien)
+
+var sentence = 'I am hardworking ,i amserious. i am sure i will do it';
+
+var reverse = sentence.split(' ').reverse().join(' ');
+
+console.log(reverse)
